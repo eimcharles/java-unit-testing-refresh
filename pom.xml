@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.eimc</groupId>
-  <artifactId>JavaUnitTestingRefresh</artifactId>
+  <artifactId>java-unit-testing-refresh</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -36,7 +36,7 @@
                   <scope>test</scope>
               </dependency>
 
-      <!--   Mockito   -->
+        <!--   Mockito   -->
               <dependency>
                   <groupId>org.mockito</groupId>
                   <artifactId>mockito-core</artifactId>
@@ -45,21 +45,5 @@
               </dependency>
 
     </dependencies>
-
-    <build>
-
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.14.1</version>
-                <configuration>
-                    <source>21</source>
-                    <target>21</target>
-                </configuration>
-            </plugin>
-        </plugins>
-
-    </build>
 
 </project>
